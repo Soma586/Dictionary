@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/inter/static/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url('./assets/fonts/lora/static/Lora-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('./assets/fonts/inconsolata/static/Inconsolata-Regular.ttf');
+}
