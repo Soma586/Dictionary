@@ -1,0 +1,130 @@
+@import '../scss/colors.scss';
+@import '../scss/typography.scss';
+
+
+.searchContainer{
+    width: 737px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+
+
+.inputContainer {
+
+    position: relative;
+}
+
+.searchIcon {
+
+    position: absolute;
+    right: 30px;
+    top: 28px;
+    width: 30px;
+    height: 30px;
+}
+
+input {
+    width: 100%;
+    border-radius: 26px;
+    background-color: $lightgrey;
+    border-style: none;
+    padding: 25px ;
+    
+    
+}
+
+input:focus-visible {
+    //border: 1px solid blue
+    outline: 1px solid $purple;
+}
+
+
+.error:focus-visible {
+    outline: 1px solid red;
+}
+
+.errorMessage {
+    color: red;
+}
+
+ul {
+    list-style: none;
+    // padding-left: 20px;
+    margin-left: 15px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: $purple;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+   // margin-right: 20px;
+    
+  }
+
+
+
+
+  .nothingContainer{
+      margin-top: 70px;
+      text-align: center;
+  }
+  
+  .emoji {
+      font-size: 60px;
+  }
+
+  .phonetic {
+      color: $purple;
+  }
+
+  .synonym {
+      color: $purple;
+  }
+
+  .synonymHeading {
+      color: $red;
+  }
+
+
+  .playButton:hover {
+    fill: red
+  }
+
+  .wtf {
+      padding-top: 30px;
+  }
+
+  
+  .wtf svg g:hover{
+      fill: purple;
+  }
+
+  
+
+
+
+/**Details*/
+
+.details {
+    margin-top: 60px;
+}
+
+
+
+.leftDiv {
+    width: 10%;
+}
+
+
+.rightDiv {
+    width: 90%;
+
+    @media screen and (max-width: 800){
+        padding-left: 75px;
+    }
+    //padding-left: 75px;
+}

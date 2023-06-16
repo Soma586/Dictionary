@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import './assets/fonts/inter/static/Inter-Regular.ttf'
 import './assets/fonts/lora/static/Lora-Regular.ttf'
 import './assets/fonts/inconsolata/static/Inconsolata-Regular.ttf'
+import 'bootstrap/dist/css/bootstrap.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
